@@ -15,10 +15,10 @@ const RelativeList = () => {
     return(
         <div>
             {/* <h1>hi</h1> */}
-            <ol key="relativeList">
+            <ol key="relativeList" id="relativeList">
                 {
                     relatives.map((relative) => {
-                        return <li key={relative.id}>{relative.name}</li>
+                        return <li key={relative.id} id={relative.id}>{relative.name}</li>
                         // console.log(relative)
                     })
                 }
