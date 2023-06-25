@@ -1,7 +1,7 @@
 import React from "react";
 
 const RelativeList = () => {
-
+    // relativeListItem1
     const relatives = [
         {id : "relativeListItem1", name : "Arjun"},
         {id : "relativeListItem2", name : "Sumit"},
@@ -15,7 +15,7 @@ const RelativeList = () => {
     return(
         <div>
             {/* <h1>hi</h1> */}
-            <ol key="relativeList">
+            <ol key="#relativeList">
                 {
                     relatives.map((relative) => {
                         return <li key={relative.id}>{relative.name}</li>
